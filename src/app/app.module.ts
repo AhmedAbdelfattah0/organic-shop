@@ -11,6 +11,13 @@ import { LogoutComponent } from './logout/logout.component';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { MangageOrdersComponent } from './mangage-orders/mangage-orders.component';
 import { MangageProductsComponent } from './mangage-products/mangage-products.component';
+import { MatrialModule } from './matrial.module';
+import { ProductsComponent } from './products/products.component';
+import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
+import { CheckOutComponent } from './check-out/check-out.component';
+import { OrderSuccessComponent } from './order-success/order-success.component';
+import { AdminProductsComponent } from './admin/admin-products/admin-products.component';
+import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +28,19 @@ import { MangageProductsComponent } from './mangage-products/mangage-products.co
     LogoutComponent,
     MyOrdersComponent,
     MangageOrdersComponent,
-    MangageProductsComponent
+    MangageProductsComponent,
+    ProductsComponent,
+    ShoppingCartComponent,
+    CheckOutComponent,
+    OrderSuccessComponent,
+    AdminProductsComponent,
+    AdminOrdersComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatrialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
